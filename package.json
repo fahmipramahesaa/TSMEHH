@@ -4,7 +4,8 @@
   "description": "BOT TSMEH",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "node": "node server.js"
   },
 
 "repository": {
