@@ -2,7 +2,7 @@ const { Client, Intents } = require('discord.js');
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
-const TOKEN = "OTcyOTA2MDUyOTAxMjk0MTUw.GLq2P_.fkmAiLDECs5drx1jgnh_M4QveoA9W1akArNCaY"
+const TOKEN = "OTcyOTA2MDUyOTAxMjk0MTUw.GWA4dQ.B8Kt8YGNAcFFaOlac9Q34CRpFeyRixFsOjBE-o"
 
 client.on("ready", () => {
     client.user.setActivity(".help", { type: "PLAYING"})
@@ -10,7 +10,7 @@ client.on("ready", () => {
 
 client.on("messageCreate", (message) => {
     if(message.content == ".help"){
-        message.reply("Commands: !server !roles !newvids")
+        message.reply("Commands: !server !roles !newvid !member")
     }
     if(message.content == "!server"){
         message.reply("https://discord.gg/t6983t5")
@@ -24,8 +24,8 @@ client.on("messageCreate", (message) => {
     if(message.content == "live"){
         message.reply("https://www.youtube.com/FahmiPramahesaa **Live now on Youtube! @everyone**")
     }
-    if(message.content == "!newvids"){
-        message.reply("https://youtu.be/tNJYJnh-I5s **New content, check this out! @everyone**")
+    if(message.content == "!newvid"){
+        message.reply("https://youtu.be/5Q4xIp-VQ0w **New content, check this out! @everyone**")
     }
     if(message.content == "gg"){
         message.reply("https://j.gifs.com/yD5EEg.gif")
