@@ -2,9 +2,9 @@
   "name": "babayo",
   "version": "1.0.0",
   "description": "BOT TSMEH",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
 
 "repository": {
